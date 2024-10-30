@@ -152,3 +152,8 @@
 //string sum = x + " " + y;
 //Console.WriteLine(sum);
 
+/*
+ბევრი
+ხაზის 
+დაკომენტარება
+*/
