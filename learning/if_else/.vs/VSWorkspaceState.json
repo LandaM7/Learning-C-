@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\if_else"
   ],
+  "SelectedNode": "\\if_else\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
