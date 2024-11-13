@@ -8,7 +8,7 @@ double number2 = Convert.ToDouble(Console.ReadLine());
 
 if (number2 == 0)
 {
-    Console.WriteLine("nulze gayofa ar SeiZleba");
+    Console.WriteLine("nulze gayofa ar SeiZleba");   
 }
 else if(symbol=='+')
 {
