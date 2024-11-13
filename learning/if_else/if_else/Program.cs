@@ -87,4 +87,4 @@
 //    20 => "age 20",
 //    _ => "Unknown" //ქეჩალ ვალიიუ, თუ ზემოთ ჩამოთვლილი არცერთი არ შესრულდა შესრულდება ეს ნაწილი
 //};
-//Console.WriteLine( resultAge);
+//Console.WriteLine( resultAge);  
