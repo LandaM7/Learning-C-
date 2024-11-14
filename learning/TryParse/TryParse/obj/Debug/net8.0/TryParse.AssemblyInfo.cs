@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TryParse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fca3018977ee308e118994ca6c145455746fb3f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54a2f8ac7efd4c46f99e969784977f40543a7f51")]
 [assembly: System.Reflection.AssemblyProductAttribute("TryParse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TryParse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
