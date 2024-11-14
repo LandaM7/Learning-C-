@@ -106,6 +106,10 @@
 //{
 //    Console.WriteLine(exeption);
 //}
+//catch (ArithmeticException aritmeticException)
+//{
+//    Console.WriteLine("aritmetik");
+//}
 //catch (DivideByZeroException ZeroException)
 //{
 //    Console.WriteLine("zero");
@@ -119,3 +123,20 @@
 //{
 //    Console.WriteLine("finally");
 //}    
+
+
+
+//var number1 = Convert.ToInt32(Console.ReadLine());
+//var number2 = int.Parse(Console.ReadLine());
+
+//TryParse ბულიანს აბრუნებს თრუ ან ფოლსი
+//var numberparseSuccess = int.TryParse(Console.ReadLine(), out int reultparse);
+//if(numberparseSuccess)
+//{
+//    var number = numberparseSuccess;
+//    Console.WriteLine(reultparse);
+//}
+//else
+//{
+//    Console.WriteLine("false"); 
+//}
