@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lmindiashvili\\Desktop\\C#\\git\\learning\\learning\\loops_tsiklebi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lmindiashvili\\Desktop\\C#\\git\\learning\\learning\\loops_tsiklebi\\loops\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:loops\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lmindiashvili\\Desktop\\C#\\git\\learning\\learning\\loops_tsiklebi\\loops\\loops.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:loops\\loops.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lmindiashvili\\Desktop\\C#\\git\\learning\\learning\\loops_tsiklebi\\loops\\Program.cs",
+              "RelativeDocumentMoniker": "loops\\Program.cs",
+              "ToolTip": "C:\\Users\\lmindiashvili\\Desktop\\C#\\git\\learning\\learning\\loops_tsiklebi\\loops\\Program.cs",
+              "RelativeToolTip": "loops\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:02:56.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "loops.csproj",
               "DocumentMoniker": "C:\\Users\\lmindiashvili\\Desktop\\C#\\git\\learning\\learning\\loops_tsiklebi\\loops\\loops.csproj",
               "RelativeDocumentMoniker": "loops\\loops.csproj",

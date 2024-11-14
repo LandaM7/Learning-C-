@@ -88,3 +88,22 @@
 //{
 //    Console.WriteLine("ricxvi" + i);
 //}
+
+
+
+//როცა რაღაც ცვლად ვადეკლარირებ, ეს ცვლადი არსებსბ მხოლოდ ამ ციკლში/იგივეა თრაიქეთჩში
+//while (true)
+//{
+//    var testNumber = 100;
+//}
+//testNumber
+
+
+//თუ გარედან მინდა მივწვდე ცვლადი უნდა დადეკლარირდეს ციკლის გარეთ
+
+//var testNumber=10;
+//while (true)
+//{
+//    testNumber = 20;
+//    Console.WriteLine(testNumber);
+//}
