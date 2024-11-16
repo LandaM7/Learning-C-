@@ -95,31 +95,55 @@
 ////Conditional operator
 //var age = true ? 18 : 60; //ამ ჩანაწერს ვერ მივხვდი
 
-var age = 62;
-//Switch
-switch (age)
-{
-    case 18:
-        Console.WriteLine("Age is eighteen");
-        break;
-    case 60:
-    case 61:
-        goto case 62;
-    case 62:
-        {
-            Console.WriteLine("Age is sixty or over");
-            break;
-        }
-    default:
-        {
-            Console.WriteLine("Age unknown");
-            break;
-        }
-}
+
+////Switch
+//var age = 18;
+//switch (age)
+//{
+//    case 18:
+//        Console.WriteLine("Age is eighteen");
+//        break;
+//    case 60:
+//    case 61: 
+//    case 62:
+//        {
+//            Console.WriteLine("Age is sixty or over");
+//            break;
+//        }
+//    default:
+//        {
+//            Console.WriteLine("Age unknown");
+//            break;
+//        }
+//}
 
 
+////Switch
+////!!ცუდიაა/ გადახტომის ოპერატორი. goto ს დროს გადადის შემდეგ ქეისზე 
+//var age = 61;
+//switch (age)
+//{
+//    case 18:
+//        Console.WriteLine("Age is eighteen");
+//        break;
+//    case 60:
+//    case 61:
+//        Console.WriteLine("goto");
+//        goto case 62;
+//    case 62:
+//        {
+//            Console.WriteLine("Age is sixty or over");
+//            break;
+//        }
+//    default:
+//        {
+//            Console.WriteLine("Age unknown");
+//            break;
+//        }
+//}
 
 
+//ლამბდაექსპრეშენი =>
 //var age = 26;
 //string resultAge = age switch
 //{
