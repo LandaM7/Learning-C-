@@ -146,35 +146,35 @@
 
 
 
-////Error handling
+//////Error handling
+//// დადებით ქეისზე ციკლი სრულდება - უარყოფიტზე გრძელდება
+//bool isConversionSuccessful = false;
+//while (!isConversionSuccessful)
+//{
+//    try
+//    {
+//        Console.WriteLine("Please input an integer");
+//        var testInputString = Console.ReadLine();
+//        int numberConverted = Int32.Parse(testInputString);
+//        isConversionSuccessful = true;
+//    }
+//    catch (OverflowException ex)
+//    {
+//        Console.WriteLine($"Overflow Exception, please enter different value");
+//    }
+//    catch (FormatException ex)
+//    {
+//        Console.WriteLine($"Bad Formatting, try again");
+//    }
+//    catch (Exception ex)
+//    {
+//        Console.WriteLine($"Exception occured, details: {ex}");
+//    }
+//    finally
+//    {
+//        Console.WriteLine("Finally block always executes");
+//    }
+//}
 
-bool isConversionSuccessful = false;
-while (!isConversionSuccessful)
-{
-    try
-    {
-        Console.WriteLine("Please input an integer");
-        var testInputString = Console.ReadLine();
-        int numberConverted = Int32.Parse(testInputString);
-        isConversionSuccessful = true;
-    }
-    catch (OverflowException ex)
-    {
-        Console.WriteLine($"Overflow Exception, please enter different value");
-    }
-    catch (FormatException ex)
-    {
-        Console.WriteLine($"Bad Formatting, try again");
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Exception occured, details: {ex}");
-    }
-    finally
-    {
-        Console.WriteLine("Finally block always executes");
-    }
-}
-
-Console.ForegroundColor = ConsoleColor.DarkGreen;
-Console.WriteLine("Program reached end!");
+//Console.ForegroundColor = ConsoleColor.DarkGreen;
+//Console.WriteLine("Program reached end!");
