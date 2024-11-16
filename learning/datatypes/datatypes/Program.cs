@@ -131,6 +131,10 @@
 //Console.Write("landa");
 //Console.Write("mindiashvili");
 
+
+////ბრჭყალებით ჩაწერა
+//Console.Write("Enter \"Y\":");
+
 //% - ნაშთი გაყოფისის დროს
 //int x = 10;
 //int y = 10 % 3;
