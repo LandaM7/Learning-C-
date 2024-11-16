@@ -149,7 +149,6 @@
 ////Error handling
 
 bool isConversionSuccessful = false;
-
 while (!isConversionSuccessful)
 {
     try
