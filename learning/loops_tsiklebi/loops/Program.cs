@@ -107,3 +107,115 @@
 //    testNumber = 20;
 //    Console.WriteLine(testNumber);
 //}   
+
+
+//Console.WriteLine("1");
+//double number1 = Convert.ToDouble(Console.ReadLine());
+//Console.WriteLine( "moqmedeba");
+//char symbol = Convert.ToChar(Console.ReadLine());
+//Console.WriteLine("2");
+//double number2 = Convert.ToDouble(Console.ReadLine());
+
+
+//if (number2 == 0)
+//{
+//    Console.WriteLine("nulze gayofa ar SeiZleba");   
+//}
+//else if(symbol=='+')
+//{
+//    Console.WriteLine(number1+number2);
+//}
+//else if (symbol == '-')
+//{
+//    Console.WriteLine(number1 - number2);
+//}
+//else if (symbol == '*')
+//{
+//    Console.WriteLine(number1 * number2);
+//}
+//else if (symbol == '/')
+//{
+//    Console.WriteLine(number1 / number2);
+//}
+//else if (symbol == '^')
+//{
+//    Console.WriteLine(number1 * number1);
+//}
+
+
+
+
+// რატის
+//Looping constructs
+
+//var x = 1;
+//while (x <= 5)
+//{    
+//    Console.WriteLine(x);
+//    x++;
+//}
+
+
+
+//Loops may run forever / ციკლები შეიძლება უსასრულოდ მუშაობდეს
+//while (true)
+//{
+//    Console.WriteLine("Never exiting");
+//}
+
+//var x = 1;
+//do
+//{
+//    //Variables declared inside loops are scoped only inside that loop
+//    //ცვლადები, რომლებიც ციკლის შიგნით გამოცხადებულია, მოქმედებს მხოლოდ იმ ციკლის ფარგლებში
+//    var doubledValue = x *= 2;
+//    Console.WriteLine(doubledValue);
+//    x++;
+//}
+//while (x <= 5);
+
+
+//for (var y = 1; y <= 5; y++)
+//{
+//    Console.WriteLine(y);
+//}
+
+//for (int y = 1, z = 10; y <= 5 && z >= 5; y++, z--)
+//{
+//    Console.WriteLine(y + " " + z);
+
+//}
+
+//Such syntax is also valid
+//for (;;);
+//for (; true; Console.WriteLine("Test")) ;
+
+
+
+//"შეიყვანეთ 'quit' ციკლიდან გამოსასვლელად, წინააღმდეგ შემთხვევაში გააგრძელეთ გაშვება".
+//while (true)
+//{
+//    Console.WriteLine("Type 'quit' to break out of the loop, otherwise continue running");
+//    if (Console.ReadLine() == "quit")
+//        break;
+//}
+
+
+//დაჯამების ოპერაციაა 
+//var total = 0;
+//while (total < 100)
+//{
+//    Console.WriteLine("Type a number to add to total");
+//    var inputNumber = int.Parse(Console.ReadLine()!);
+//    if (inputNumber > 50)
+//    {
+//        Console.WriteLine("Can't add more than 50 at a time");
+//        continue;
+//    }
+
+//    total += inputNumber;
+//    Console.WriteLine($"Total is {total}");
+//}
+
+
+
