@@ -63,6 +63,8 @@
 //    Console.WriteLine($"{number} aris kenti");
 //}
 
+
+//რატი
 //var age = 13;
 //var name = "Rati";
 
@@ -80,11 +82,54 @@
 //}
 
 
-//var age = 20;
+
+//Relational operators: ==, !=, <, >, <=, >=, ||, &&
+
+//Block statements have local scope
+//if (true)
+//{
+//    var test = "test";
+//}
+//Console.WriteLine(test);
+
+////Conditional operator
+//var age = true ? 18 : 60; //ამ ჩანაწერს ვერ მივხვდი
+
+var age = 62;
+//Switch
+switch (age)
+{
+    case 18:
+        Console.WriteLine("Age is eighteen");
+        break;
+    case 60:
+    case 61:
+        goto case 62;
+    case 62:
+        {
+            Console.WriteLine("Age is sixty or over");
+            break;
+        }
+    default:
+        {
+            Console.WriteLine("Age unknown");
+            break;
+        }
+}
+
+
+
+
+//var age = 26;
 //string resultAge = age switch
 //{
 //    18 => "Age eighteen",
 //    20 => "age 20",
 //    _ => "Unknown" //ქეჩალ ვალიიუ, თუ ზემოთ ჩამოთვლილი არცერთი არ შესრულდა შესრულდება ეს ნაწილი
 //};
-//Console.WriteLine( resultAge);     
+//Console.WriteLine(resultAge);
+
+
+//Foreach, while, dowhile, for, continue, break, return ...
+//Control Flow
+//https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements

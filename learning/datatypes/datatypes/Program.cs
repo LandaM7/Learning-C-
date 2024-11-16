@@ -160,3 +160,78 @@
 
 
 
+////Example for implicit conversion
+
+//using System.Threading.Channels;
+
+//byte number = 10;
+//int number2 = number;
+
+
+////Example of explicit conversion
+////long numberLong = 2147483648;
+////int number4 = (int)numberLong;
+////int number3 = Convert.ToInt32(numberLong);
+
+////Example of checked/unchecked context
+//checked
+//{
+//    long numberLong = 2147483648;
+//    int number4 = (int)numberLong;
+//}
+
+////Example of char ASCII Behavior
+//char testCharacter = Convert.ToChar(61);
+//testCharacter = (char)5;
+//testCharacter = '\u0061';
+//Console.WriteLine(testCharacter);
+
+
+//var result = 2 + 4;
+//result = 2 - 4;
+//result--;
+//--result;
+//result = 2 * 4;
+//result *= 2;
+//result = 2 / 4;
+//result = 2 % 4;
+//result = (int)Math.Pow(2, 4);//ახარისხება
+//Console.WriteLine(result++);
+//Console.WriteLine(result);
+
+////XOR Operator example
+////010
+////100
+////110
+//result = 2 ^ 4;
+//Console.WriteLine(result);
+
+
+////Math operations are not defined for all types, thus implicit type conversion occurs
+//byte byte1 = 4;
+//byte byte2 = 5;
+//byte byteResult = (byte)(byte1 + byte2);
+
+//byte res = 255;
+//res++;
+
+//byte maxByteVal = 255;
+//var res3 = maxByteVal + 1;
+//Console.WriteLine("Byte value is " + res);
+//Console.WriteLine("Second Byte value is " + res3);
+
+////Working with strings
+//var testStringEscaped = "\"Example With Quotes\"";
+//var testStringEscaped2 = @"D:\OL\repo\Week01\Week0101\bin";
+//var stringInterpolation = $"Working with variables inside braces {byte1,20}";
+//var stringInterpolation2 = $"{"Test Text",-50} - 1";
+//var stringInterpolation3 = $"{"Test Text Three with longer input",-50} - 2";
+
+
+//Console.WriteLine(stringInterpolation);
+//Console.WriteLine(stringInterpolation2);
+//Console.WriteLine(stringInterpolation3);
+
+
+////Example of arithmetic operators
+////https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
