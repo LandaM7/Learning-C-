@@ -181,4 +181,57 @@
 //}
 
 
+Console.WriteLine("Please guess number, the number must be from 0 to 100 inclusive ");
+int usernumber = -1;
+
+while (true)
+{
+    Random random = new Random();
+    int randomnamber = random.Next(0, 10);
+    if (randomnamber % 2 == 0)
+    {
+        continue;
+    }
+    else
+    {
+
+        while (true)
+        {
+
+            var isUsernumberSuccessful = int.TryParse(Console.ReadLine(), out int resultusernumber);
+            if (isUsernumberSuccessful)
+            {
+                usernumber = resultusernumber;
+            }
+            else
+            {
+                Console.WriteLine("The entered data is incorrect, please try again. ");
+                continue;
+            }
+
+
+            if (randomnamber < usernumber)
+            {
+                Console.WriteLine("The number must be low, please say again");
+                continue;
+            }
+            else if (randomnamber > usernumber)
+            {
+                Console.WriteLine("The number must be high, please say again");
+                continue;
+            }
+
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine($"You guessed right, number was {randomnamber}");
+                break;
+            }
+
+
+        }
+
+    }
+    break;
+}
 
