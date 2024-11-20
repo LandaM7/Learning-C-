@@ -297,7 +297,7 @@ while (usernumber != randomnamber)
         else
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine($"You guessed right, number was {randomnamber}");
+            Console.WriteLine($"You guessed right, number was {randomnamber}");  
         }
     }
     else
