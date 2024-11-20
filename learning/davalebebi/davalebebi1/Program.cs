@@ -18,7 +18,7 @@
 
 //    Console.Write("Please enter the Y coordinate: ");
 //    var isYCoordinateSuccessful = double.TryParse(Console.ReadLine(), out double resultparsey);
-//    if (isYCoordinateSuccessful)
+//    if (isYCoordinateSuccessful)   
 //    {
 //        Y = resultparsey;
 //    }
@@ -298,7 +298,7 @@ while (usernumber != randomnamber)
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine($"You guessed right, number was {randomnamber}");  
-        }
+        }   
     }
     else
     {
