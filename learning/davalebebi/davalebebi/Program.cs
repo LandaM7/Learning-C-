@@ -181,6 +181,8 @@
 //}
 
 
+//randomnamber
+
 //Console.WriteLine("Please guess number, the number must be from 0 to 100 inclusive ");
 //int usernumber = -1;
 
@@ -234,4 +236,77 @@
 //    }
 //    break;
 //}
+
+
+//ifelse ების შემთხვევაში brake იანი if უნდა ეწეროს მაღლა
+//თრაიპარსის დროს თუ ვერ გაპარსა 0 ს ანიჭებს მნიშვნელობას
+//ცვლადს რაიმე ჰარდად მნიშვნელობის მინიჭება არაა კაი, მაგ როგორც მე მქონდა გაწერილი usernumber -1 
+//int usernumber=default; შემიძლია დეფაულტ მნიშვნელობა გავუწერო
+//ან შემეძლო ორჯერ მომეთხოვა ინფუთი
+//int usernumber = default;
+//usernumber = int.Parse(Console.ReadLine())
+//var თან ვერ ვიყენებ დეფაულტ მნიშვნელობას
+
+//დიდი ასოები გადაყავს პატარაში
+//string ansver = Console.ReadLine().Trim().ToLower();
+//if (ansver=="yes")
+//{
+//    Console.WriteLine( "yes");
+//}
+
+//else
+//{
+//    Console.WriteLine( "NO");
+//}
+
+
+//// გაუმჯობესებული randomnamber
+///
+
+
+
+Console.WriteLine("Please guess number, the number must be from 0 to 100 inclusive ");
+int usernumber = default;
+
+
+Random random = new Random();
+int randomnamber = random.Next(0, 101);
+
+while (randomnamber % 10 == 0)
+{
+    randomnamber = random.Next(0, 101);
+}
+
+while (usernumber != randomnamber)
+{
+    var isUsernumberSuccessful = int.TryParse(Console.ReadLine(), out int resultusernumber);
+    usernumber = resultusernumber;
+
+    if (isUsernumberSuccessful)
+    {
+        if (randomnamber < usernumber)
+        {
+            Console.WriteLine("The number must be low, please say again");
+            continue;
+        }
+        else if (randomnamber > usernumber)
+        {
+            Console.WriteLine("The number must be high, please say again");
+            continue;
+        }
+
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine($"You guessed right, number was {randomnamber}");
+        }
+    }
+    else
+    {
+        Console.WriteLine("The entered data is incorrect, please try again. ");
+        continue;
+    }
+
+}
+
 
