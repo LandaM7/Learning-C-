@@ -28,7 +28,7 @@
 //        continue;
 //    }
 
-//    if (X < 0)
+//    if (X < 0)  
 //    {
 //        if (Y > 0)
 //        {
@@ -247,6 +247,8 @@
 //usernumber = int.Parse(Console.ReadLine())
 //var თან ვერ ვიყენებ დეფაულტ მნიშვნელობას
 
+//trycatch დიდ რიცხვს ვერ დაიჭერს მაგალითად და დაიქრაშება პროგრამა და თრაიპარს დაჰენდლავს 
+
 //დიდი ასოები გადაყავს პატარაში
 //string ansver = Console.ReadLine().Trim().ToLower();
 //if (ansver=="yes")
@@ -260,7 +262,7 @@
 //}
 
 
-//// გაუმჯობესებული randomnamber
+//// ++ randomnamber
 
 
 
@@ -285,14 +287,12 @@ while (usernumber != randomnamber)
     {
         if (randomnamber < usernumber)
         {
-            Console.WriteLine("The number must be low, please say again");
-            continue;
+            Console.WriteLine("The number must be low, please say again");            
         }
         else if (randomnamber > usernumber)
         {
-            Console.WriteLine("The number must be high, please say again");
-            continue;
-        }
+            Console.WriteLine("The number must be high, please say again");        
+        }  
 
         else
         {
@@ -302,8 +302,7 @@ while (usernumber != randomnamber)
     }
     else
     {
-        Console.WriteLine("The entered data is incorrect, please try again. ");
-        continue;
+        Console.WriteLine("The entered data is incorrect, please try again. ");        
     }
 
 }
