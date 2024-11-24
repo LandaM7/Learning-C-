@@ -266,43 +266,43 @@
 
 
 
-Console.WriteLine("Please guess number, the number must be from 0 to 100 inclusive ");
-int usernumber = default;
+//Console.WriteLine("Please guess number, the number must be from 0 to 100 inclusive ");
+//int usernumber = default;
 
 
-Random random = new Random();
-int randomnamber = random.Next(0, 101);
+//Random random = new Random();
+//int randomnamber = random.Next(0, 101);
 
-while (randomnamber % 10 == 0)
-{
-    randomnamber = random.Next(0, 101);
-}
+//while (randomnamber % 10 == 0)
+//{
+//    randomnamber = random.Next(0, 101);
+//}
 
-while (usernumber != randomnamber)
-{
-    var isUsernumberSuccessful = int.TryParse(Console.ReadLine(), out int resultusernumber);
-    usernumber = resultusernumber;
+//while (usernumber != randomnamber)
+//{
+//    var isUsernumberSuccessful = int.TryParse(Console.ReadLine(), out int resultusernumber);
+//    usernumber = resultusernumber;
 
-    if (isUsernumberSuccessful)
-    {
-        if (randomnamber < usernumber)
-        {
-            Console.WriteLine("The number must be low, please say again");            
-        }
-        else if (randomnamber > usernumber)
-        {
-            Console.WriteLine("The number must be high, please say again");        
-        }  
+//    if (isUsernumberSuccessful)
+//    {
+//        if (randomnamber < usernumber)
+//        {
+//            Console.WriteLine("The number must be low, please say again");            
+//        }
+//        else if (randomnamber > usernumber)
+//        {
+//            Console.WriteLine("The number must be high, please say again");        
+//        }  
 
-        else
-        {
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine($"You guessed right, number was {randomnamber}");  
-        }   
-    }
-    else
-    {
-        Console.WriteLine("The entered data is incorrect, please try again. ");        
-    }
+//        else
+//        {
+//            Console.ForegroundColor = ConsoleColor.DarkGreen;
+//            Console.WriteLine($"You guessed right, number was {randomnamber}");  
+//        }   
+//    }
+//    else
+//    {
+//        Console.WriteLine("The entered data is incorrect, please try again. ");        
+//    }
 
-}
+//}
