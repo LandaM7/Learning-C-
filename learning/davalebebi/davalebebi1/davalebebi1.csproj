@@ -12,9 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="appsettings.json">
+    <AdditionalFiles Include="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </AdditionalFiles>
   </ItemGroup>
 
   <ItemGroup>
