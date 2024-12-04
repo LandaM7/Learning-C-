@@ -306,3 +306,49 @@
 //    }
 
 //}
+
+
+//using Microsoft.Data.SqlClient;
+//using Microsoft.Extensions.Configuration;
+
+
+//var configurationManager = new ConfigurationManager();
+//configurationManager.AddJsonFile("appsettings.json");
+
+//String _ConnectionStrings = configurationManager.GetConnectionString("DefaultConnection");
+
+//using (var connection = new SqlConnection(_ConnectionStrings))
+//{
+//    connection.Open();
+
+//    using (var command = new SqlCommand("SELECT*FROM [TestNewDatabase].[dbo].[books]", connection))
+//    {
+//        using (var reader = command.ExecuteReader())
+//        {
+//            while (reader.Read())
+//            {
+//                var book = new Book();
+//                book.Id = reader.GetInt32(0);
+//                book.Name = reader.GetString(1);
+//                book.Author = reader.GetString(2);
+//                Console.WriteLine(book);
+//            }
+//        }
+//    }
+//}
+
+
+
+
+
+
+//record Book
+//{
+//    public int Id;
+//    public string Name;
+//    public string Author;
+//}
+
+
+////Console.WriteLine($"Connection String: {_ConnectionStrings}");
+

@@ -251,3 +251,131 @@
 //}
 
 
+//Arrays // მასივები
+
+//int[] scoresArray = new int[3];
+//scoresArray[0] = 1;
+//scoresArray[1] = 2;
+//scoresArray[2] = 3;
+
+//int[] scoresArray2 = new int[3] { 1, 2, 3 };
+
+//int[] scoresArray3 = [1, 2, 3];
+
+//Console.WriteLine(scoresArray[0]);
+
+////Undeclared array values are initialized to default value
+//int[] scoresArray4 = new int[2];
+//Console.WriteLine(scoresArray4[1]);
+
+//Console.WriteLine(scoresArray[^1]);
+//int[] firstTwoScores = scoresArray[1..2];
+
+//for (int i = 0; i < scoresArray.Length; i++)
+//    Console.WriteLine(scoresArray[i]);
+
+//foreach (var score in scoresArray)
+//    Console.WriteLine(score);
+
+
+////Jagged arrays (arrays of arrays)
+
+//int[][] matrix = new int[3][];
+//matrix[0] = new int[] { 1, 2 };
+//matrix[1] = new int[] { 3, 4 };
+//matrix[2] = new int[] { 5, 6 };
+
+//Console.WriteLine(matrix[2][1]);
+
+////Multidimensional arrays  // აქ განსაზღვრულია თითოეული ზომა
+//int[,] matrixSpecified = new int[3,2 ] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+//Console.WriteLine(matrixSpecified[2, 1]);
+
+
+////Jagged arrays (arrays of arrays)  აქ არ არის განსაზღვრული რასიგრძის იქნება მასივები 
+//var matrix = new int[][]
+//{
+//    [1,2,3 ],
+//    [3,4],
+//    [5,6,7,8]
+//};
+//for (int i = 0; i < matrix.Length; i++)
+//{
+//    for (int j = 0; j < matrix[i].Length; j++)
+//    {
+//        Console.WriteLine(matrix[i][j]);
+//    }
+//}
+
+
+////Jagged arrays (arrays of arrays)
+
+//int[][] matrix = new int[3][]
+//{
+//    [1,2,3 ],
+//    [3,4],
+//    [5,6,7,8]
+//};
+//for (int i = 0; i < matrix.Length; i++)
+//{
+//    for (int j = 0; j < matrix[i].Length; j++)
+//    {
+//        Console.WriteLine(matrix[i][j]);
+//    }
+//}
+
+
+
+////Multidimensional arrays  // აქ განსაზღვრულია თითოეული ზომა
+///ფორიჩი არ წვდება ინდექსს
+//int[,] matrixSpecified = new int[3, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+
+//foreach (var element in matrixSpecified)
+//{
+//    Console.WriteLine(element);
+//}
+
+//int[,] matrixSpecified = new int[3, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+
+//for (int i = 0; i < matrixSpecified.GetLength(0); i++)
+//{
+//    for (int j = 0; j < matrixSpecified.GetLength(1); j++)
+//    {
+//        Console.WriteLine(matrixSpecified[i,j]);
+//    }
+//}
+
+
+//Error handling
+
+//bool isConversionSuccessful = false;
+
+//while (!isConversionSuccessful)
+//{
+//    try
+//    {
+//        Console.WriteLine("Please input an integer");
+//        var testInputString = Console.ReadLine();
+//        int numberConverted = Int32.Parse(testInputString);
+//        isConversionSuccessful = true;
+//    }
+//    catch (OverflowException ex)
+//    {
+//        Console.WriteLine($"Overflow Exception, please enter different value");
+//    }
+//    catch (FormatException ex)
+//    {
+//        Console.WriteLine($"Bad Formatting, try again");
+//    }
+//    catch (Exception ex)
+//    {
+//        Console.WriteLine($"Exception occured, details: {ex}");
+//    }
+//    finally
+//    {
+//        Console.WriteLine("Finally block always executes");
+//    }
+//}
+
+//Console.ForegroundColor = ConsoleColor.DarkGreen;
+//Console.WriteLine("Program reached end!");
